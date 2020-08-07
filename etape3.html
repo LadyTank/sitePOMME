@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création d'un design étape par étape - Etape n°1 : Le code html</title>
+    <!-- <link rel="stylesheet" href="../sitePOMME/css/style.css">  -->
+    <style>
+        body {
+           
+            /* border: 10px solid pink; */
+            /* margin haut droite bas gauche */
+            /* margin: 10px 0 10px 0; */
+            margin: 10px 0; 
+            text-align: center;
+            /* typo taille en .em et famille, propriété raccourcie */
+            font:  0.8em "Trebuchet MS", Helvetica, sans-serif;
+            background-color:#ddeeaa;
+        }
+
+        /* l'Id conteneur içi est affecté à une DIV de la page de notation div#conteneur ou #conteneur est identique */
+        div#conteneur {
+            margin: 0 auto;
+            width: 800px;
+            border: 2px solid #ab4;
+            /* en hexadécimal il existe 16 millions de couleurs */
+            background-color: #fff;
+            
+            text-align: left;
+        }
+
+        /* #header ou h1#header c'est pareil */
+        h1#header {
+            height: 258px;
+            /* une image en arrière plan dans le css */
+            /* background-image: url(../img/apple.jpg);
+            background-repeat: no-repeat;
+            background-position-y: left;
+            background-position-x: top; */
+            background: url(img/apple.jpg) no-repeat left top;
+        }
+
+        div#contenu {
+            padding: 0 30px 0 100px;
+        }
+
+        div#contenu h2 {
+            padding-left: 25px;
+            background: url(img/little_apple.gif) no-repeat left bottom;
+            border-bottom: 1px solid #9b2;
+            
+            color: #9b2;
+            /* interlignage */
+            line-height: 25px;
+            font-size: 1.4em;
+            /* text-decoration: underline; */
+        }
+
+        div#contenu h3 {
+            margin-left: 15px;
+            padding-left: 5px;
+            border-bottom: 1px solid #9b2;
+            border-left: 3px solid #9b2;
+            color: #9b2;
+        }
+
+        div#contenu p {
+            text-align: justify;
+            text-indent: 2em;
+            line-height: 1.7em;
+        }
+
+        div#contenu blockquote {
+            border-left: 5px solid #9b2;
+            padding-left: 10px;
+        }
+
+        div#contenu a {
+            color: #8a0;
+        }
+
+        dix#contenu a:hover {
+            color: #9b2;
+        }
+        
+        p#footer {
+            margin: 0;
+            padding-right: 10px;
+            line-height: 30px;
+            text-align: right;
+            color: #8a0;
+        }
+
+    </style>
+
+</head>
+    <body>
+        <!-- Le contenu principal >>> souvent nommé id="main" ou id="conteneur" ou id="container" ou id="wrapper" -->
+    <div id="conteneur">
+        <h1 id="header"><a href="#" title="Colored Design - Accueil"><span>Colored Design</span></a></h1>
+            <!-- içi la balise nav -->
+            <nav>
+                <ul id="menu" >
+                    <li><a href="#">Etape n°1</a></li>
+                    <li><a href="#">Etape n°2</a></li>
+                    <li><a href="#">Etape n°3</a></li>
+                    <li><a href="#">Etape n°4</a></li>
+                    <li><a href="#">Etape n°5</a></li>
+                </ul>
+            </nav>
+
+    <!-- une seconde div pour le contenu après l'entête de la page -->
+        <div id="contenu">
+            <h2>Mangez des pommes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, laborum? Quisquam voluptatem eos, quod sit culpa laudantium fugiat, fuga sint doloremque ratione itaque tenetur. Delectus blanditiis vero optio sint est?Error in, ut debitis soluta pariatur quaerat? Sit sed excepturi reiciendis eligendi aliquid laborum voluptates sequi expedita consequatur neque? Perspiciatis debitis amet suscipit, facere vero esse incidunt quibusdam aspernatur error?</p>
+        <blockquote>
+            <p>L'usufruit est une pomme qui est tombée dans l'herbe et qui pourrit, toute ratatinée et fendue, sous les pluies de novembre. Les hypothèques sont d'affreux échafaudages noirs qu'on met devant les façades des maisons.</p>
+        </blockquote>
+
+            <p>Placeat, quia sequi nesciunt consequatur alias eaque quos obcaecati odio illo consectetur laudantium doloremque facilis harum quas qui? Dolore, velit quaerat eos accusamus numquam ea beatae deleniti odit quasi a.Perferendis non in recusandae aspernatur eius iure maxime officiis libero ue at voculpa omnis modi nisi reprehenderit amet corrupti cumque magnam, sapiente numquam impedit ipsa! Consequatur, ullam dolorem!</p>
+        
+        <a href="http://pommemusic.fr/" target="_blank">Chanteuse Pomme</a>
+            
+            <h3>La pomme du matin éloigne le medecin</h3>
+            
+            <p>Réalisation des code HTML/CSS, du tutoriel et du design par ElMoustiko</p>
+            <!-- fermeture de div contenu -->
+        </div>
+
+    <!-- içi le pied de page avec une ID "FOOTER" que l'on trouve encore parfois en lieu et place de la balise footer html 5 -->
+
+    <p id="footer">Le pied de la page</p>
+    <!-- Fermeture de MAIN  -->
+    </div> <!-- fermeture de conteneur -->
+    </body>
+</html>
