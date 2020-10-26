@@ -1,0 +1,202 @@
+body {
+    background-color: #dea;
+    /* text-align: center; */
+    margin: 10px 0;
+     font: 0.8em "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#conteneur {
+    width: 770px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #ab4;
+    text-align: left;
+}
+
+.pomme {
+    height: 258px;
+    background: url(../img/apple.jpg) no-repeat left top;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h1 a {
+    background: url(../img/title.gif) no-repeat;
+    height: 100px;
+    /* width: 450px; */
+    display: block;
+    /* position: relative; */
+    text-indent: -5000px;
+    
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    
+    /* élément de block  */
+    display: inline-block;
+    width: 130px;
+    border-right: 2px solid #dea;
+    /* élément de texte  */
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* espacement entre les lettre  */
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#menu {
+    list-style-type: none;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px;
+    text-align: center;
+}
+
+aside {
+    background: url(../img/bg_page.gif) no-repeat;
+    background-position: top center;
+    margin-top: 20px;
+}
+
+div#contenu h2 {
+    /* padding: 0 30px 0 100px; */
+    padding-left: 25px;
+    background: url(../img/little_apple.gif) no-repeat left bottom;
+    color: #9b2;
+    border-bottom: 1px solid #9b2;
+    width: 600px;
+}
+
+div#contenu h3 {
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid #9b2;
+    border-left: 3px solid #9b2;
+    color: #9b2;
+    width: 600px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.7em;
+    padding: 0 20px 0 0;
+}
+
+blockquote {
+    border-left: 5px solid #9b2;
+    padding-left: 10px;
+}
+
+div#contenu blockquote p.text-a-droite {
+    text-align: right;
+    color: #8a0;
+}
+
+div#contenu a:hover {
+    color: #9b2;
+}
+
+
+footer p {
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #8a0;
+}
+/* la classe pour créer une rangée */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-reverse {
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* pour mettre en colonne */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Définition de la largeur des colonnes en pourcentage */
+
+.col-1 {
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666666%;
+    /* background-color: rgb(255, 145, 0); */
+}
+
+.col-3 {
+    width: 25%;
+    /* background-color: rgb(241, 172, 44); */
+}
+
+.col-4 {
+    width: 33.333333%;
+    /* background-color: rgb(247, 215, 34); */
+}
+
+.col-5 {
+    width: 41.666666%;
+    /* background-color: rgb(196, 216, 20); */
+}
+
+.col-6 {
+    width: 50%;
+    /* background-color: rgb(105, 238, 71); */
+}
+
+.col-7 {
+    width: 58.333333%;
+    /* background-color: rgb(35, 189, 29); */
+}
+
+.col-8 {
+    width: 66.666666%;
+    /* background-color: rgb(44, 224, 185); */
+}
+
+.col-9 {
+    width: 75%;
+    /* background-color: rgb(32, 212, 224); */
+}
+
+.col-10 {
+    width: 83.333333%;
+    /* background-color: rgb(69, 130, 221); */
+}
+
+.col-11 {
+    width: 91.666666%;
+    /* background-color: rgb(206, 83, 236); */
+}
+
+.col-12 {
+    width: 100%;
+    /* background-color: rgb(218, 50, 176); */
+}
+
